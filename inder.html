@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink-Dream</title>
+</head>
+<body>
+</script>
+<style>
+body{
+  margin:0;
+  font-family:Arial;
+  background:#f1eaea;
+  color:rgb(134, 43, 142);
+}
+
+/* NAV */
+nav{
+  background:linear-gradient(90deg,#a912ba,#9b1ba2);
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav h1{
+  margin:0;
+  font-size:20px;
+}
+
+nav a{
+  color:rgb(159, 45, 145);
+  text-decoration:none;
+  margin:0 10px;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:40px 20px;
+}
+
+.hero h2{
+  font-size:30px;
+}
+
+.hero p{
+  color:#bbb;
+}
+
+/* CARD */
+.card{
+  background:#1e1e1e;
+  margin:20px;
+  padding:15px;
+  border-radius:10px;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  padding:10px 15px;
+  margin-top:10px;
+  background:#b018a9;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+}
+
+/* COMMENT BOX */
+textarea{
+  width:100%;
+  height:80px;
+  border:none;
+  border-radius:5px;
+  padding:10px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  color:#a276a4;
+}
+</style>
+</head>
+</style>
+</head>
+
+<body>
+
+<nav>
+  <h1>📚 Ink-Dream PRO</h1>
+  <div>
+   <a href="http://127.0.0.1:3000/login.html">login</a>
+    <a href="http://127.0.0.1:3000/Search.html">Search</a>
+    <a href="http://127.0.0.1:3002/page%20structure">library</a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <h2>Ink-Dream</h2>
+  <p>Reade you Fantasy novel</p>
+</section>
+
+<!-- LIBRARY -->
+<section id="library">
+  <div class="card">
+    <h3>📖 Novel Library</h3>
+    <p>All your novels here</p>
+    
+    <div class="grid">
+      <div class="card">
+        <h4>Future Written in Blood</h4>
+        <p>Mafia Romance Story</p>
+        <a class="btn" href="#read">Read</a>
+      </div>
+
+      <div class="card">
+        <h4>Add New Novel</h4>
+        <p>Upload more stories</p>
+        <a class="btn" href="#">+ Add</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- READER -->
+<section id="read">
+  <div class="card">
+    <h3>📖 Chapter 1</h3>
+    <p>
+      This is your story chapter area. You can replace this text with your novel content.
+    </p>
+  </div>
+</section>
+
+<!-- COMMENTS -->
+<section class="card">
+  <h3>💬 Comments</h3>
+  <textarea placeholder="Write a comment..."></textarea>
+  <br>
+  <a class="btn" href="#">Post Comment</a>
+</section>
+
+<!-- ADMIN -->
+<section id="admin" class="card">
+  <h3>🔐 Admin Panel</h3>
+  <p>Manage novels & chapters</p>
+  <a class="btn" href="#">Add Chapter</a>
+  <a class="btn" href="#">Delete Chapter</a>
+</section>
+
+<footer>
+© 2026 Ink-Dream PRO | GitHub Pages
+</footer>
+</script>
+</body>
+</html>
+</body>
+</html>

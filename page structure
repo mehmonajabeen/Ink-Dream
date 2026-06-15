@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Novel Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📚 Novel Library</h1>
+
+<input type="text" id="searchBox" placeholder="Search novel..." onkeyup="searchNovel()">
+
+<div id="novelList">
+
+  <div class="novel">
+    <h3>My Life Can Be Infinitely Simulated</h3>
+    <p>Fantasy, Martial Arts</p>
+  </div>
+
+  <div class="novel">
+    <h3>Loving A Stranger</h3>
+    <p>Romance, Drama</p>
+  </div>
+
+  <div class="novel">
+    <h3>We Will Meet Again</h3>
+    <p>Emotional, Mystery</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
